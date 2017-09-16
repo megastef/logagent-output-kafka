@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/fbalicchia/logagent-output-kafka#readme",
   "dependencies": {
-    "kafka-node": "^2.2.3"
+    "kafka-node": "^2.2.3",
+    "async": "^2.5.0",
+    "uuid": "^3.0.0",
+    "fast-safe-stringify":"^1.2.0"
   }
 }

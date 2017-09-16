@@ -7,7 +7,7 @@ input:
 
 output:
   kafka: 
-   module: output-kafka
+   module: logagent-output-kafka
    kafkaHost: localhost
    topic: test
    #Configuration for consider message as  acknowledged acknowledged
