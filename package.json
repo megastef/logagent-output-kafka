@@ -1,0 +1,29 @@
+{
+  "name": "logagent-output-kafka",
+  "version": "1.0.0",
+  "description": "Logagent plugin to write messages to Apache Kafka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbalicchia/logagent-input-kafka.git"
+  },
+  "keywords": [
+    "Logging",
+    "Apache",
+    "Kafka",
+    "Logagent",
+    "Sematext"
+  ],
+  "author": "Filippo Balicchia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fbalicchia/logagent-output-kafka/issues"
+  },
+  "homepage": "https://github.com/fbalicchia/logagent-output-kafka#readme",
+  "dependencies": {
+    "kafka-node": "^2.2.3"
+  }
+}
