@@ -5,7 +5,7 @@ This project is specular project of [@sematext/logagent-input-kafka](https://git
 
 ## Installation 
 
-Install [@sematext/logagent](https://www.npmjs.com/package/@sematext/logagent) and [logagent-input-kafka](https://www.npmjs.com/package/logagent-output-kafka) npm package: 
+Install [@sematext/logagent](https://www.npmjs.com/package/@sematext/logagent) and [logagent-output-kafka](https://www.npmjs.com/package/logagent-output-kafka) npm package: 
 
 ```
 npm i -g @sematext/logagent 
