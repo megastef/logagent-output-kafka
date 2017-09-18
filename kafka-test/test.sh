@@ -8,7 +8,8 @@ if [[ "$(docker ps)" =~ "kafka" ]]; then
 fi 
 docker-compose up -d 
 sleep 25
-logagent --config ../logagent-kafka-input.yml | tee output.txt & 
+logagent --config ../logagent-kafka-output.yml <<< "ciao mondo" & 
 sleep 5
-node producer-ssl.js
-grep -m 1 "message : 1" output.txt 
+node consumer.js
+sleep 5
+grep -m 1 "ciao mondo" output.txt 
